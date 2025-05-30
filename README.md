@@ -78,7 +78,7 @@ The ceiling changes color based on live temperature data
 
 Tap/click objects to display location, temperature, and humidity
 
-🧠 ML Prediction Module
+## 🧠 ML Prediction Module
 Data is stored in Firebase
 
 ML model (e.g., LSTM or regression) predicts temperature/humidity for a selected date
@@ -87,7 +87,7 @@ Unity queries Firebase and displays the predicted values with the same color rul
 
 Prediction charts appear alongside real-time data charts
 
-🛠️ Tools & Technologies
+## 🛠️ Tools & Technologies
 Unity (C#)
 
 NodeMCU ESP8266 + DHT11
@@ -100,7 +100,7 @@ Firebase Realtime Database
 
 TensorFlow / Scikit-learn (for ML predictions)
 
-📌 Future Enhancements
+## 📌 Future Enhancements
 🔔 Add visual/audio alerts when thresholds are crossed
 
 🕶️ VR/AR integration for immersive visualization
@@ -113,10 +113,10 @@ TensorFlow / Scikit-learn (for ML predictions)
 Pull requests are welcome!
 Please open an issue to discuss your ideas or proposed changes.
 
-📜 License
-This project is open-source and licensed under the MIT License.
+## 📜 License
+This project is open-source and Done in NIT.
 
-🙏 Acknowledgments
+## 🙏 Acknowledgments
 Unity Technologies
 
 Firebase by Google
