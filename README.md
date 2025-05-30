@@ -10,7 +10,7 @@ This project is a cross-platform **Unity application** that visualizes real-time
 - 📡 **MQTT Integration** for live sensor updates from 7 nodes  
 - 🌈 **Color-coded ceilings** based on temperature:  
   - **< 32°C** → Blue  
-  - **32–35°C** → Light Red  
+  - **32–35°C** → Green  
   - **> 35°C** → Dark Red  
 - 🧊 **Glass-like ceiling material** with visual effects  
 - 📈 **Firebase** for storing historical data  
