@@ -36,7 +36,6 @@ This project is a cross-platform **Unity application** that visualizes real-time
 
 ## 📁 Project Structure
 
-UnityIoTProject/
 ├── Assets/ # All Unity assets (scripts, scenes, prefabs)
 ├── Packages/ # Unity package manager settings
 ├── ProjectSettings/ # Unity editor settings
