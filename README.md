@@ -36,11 +36,11 @@ This project is a cross-platform **Unity application** that visualizes real-time
 
 ## 📁 Project Structure
 
-├── Assets/ # All Unity assets (scripts, scenes, prefabs)
-├── Packages/ # Unity package manager settings
-├── ProjectSettings/ # Unity editor settings
-├── .gitignore # Files/folders excluded from version control
-└── README.md # Project documentation (this file)
+├── Assets/ ## All Unity assets (scripts, scenes, prefabs)
+├── Packages/ ## Unity package manager settings
+├── ProjectSettings/ ## Unity editor settings
+├── .gitignore ## Files/folders excluded from version control
+└── README.md ## Project documentation (this file)
 
 yaml
 Copy
