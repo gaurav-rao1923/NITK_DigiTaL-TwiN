@@ -48,39 +48,6 @@ Edit
 
 ---
 
-## ⚙️ Setup Instructions
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-2. Open the Project in Unity
-Use Unity Editor 2021.3 or later
-
-Open the folder containing Assets, Packages, and ProjectSettings
-
-3. Set Up Your MQTT Environment
-Connect your NodeMCU ESP8266 boards to DHT11 sensors
-
-Make sure they publish temperature and humidity data to MQTT topics
-
-Use Mosquitto or another broker as your MQTT server
-
-4. Run the Python MQTT-to-Firebase Script
-A Python script subscribes to MQTT and pushes data to Firebase
-
-Use paho-mqtt and firebase-admin Python packages
-
-5. Launch the Unity Scene
-Press Play in Unity
-
-The ceiling changes color based on live temperature data
-
-Tap/click objects to display location, temperature, and humidity
-
-## 🧠 ML Prediction Module
-Data is stored in Firebase
-
 ML model (e.g., LSTM or regression) predicts temperature/humidity for a selected date
 
 Unity queries Firebase and displays the predicted values with the same color rules
@@ -126,3 +93,38 @@ Eclipse Mosquitto MQTT Broker
 Open Source DHT11 & ESP8266 community
 
 OpenAI ChatGPT (for architecture & documentation assistance 😄)
+---
+## ⚙️ Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+2. Open the Project in Unity
+Use Unity Editor 2021.3 or later
+
+Open the folder containing Assets, Packages, and ProjectSettings
+
+3. Set Up Your MQTT Environment
+Connect your NodeMCU ESP8266 boards to DHT11 sensors
+
+Make sure they publish temperature and humidity data to MQTT topics
+
+Use Mosquitto or another broker as your MQTT server
+
+4. Run the Python MQTT-to-Firebase Script
+A Python script subscribes to MQTT and pushes data to Firebase
+
+Use paho-mqtt and firebase-admin Python packages
+
+5. Launch the Unity Scene
+Press Play in Unity
+
+The ceiling changes color based on live temperature data
+
+Tap/click objects to display location, temperature, and humidity
+
+## 🧠 ML Prediction Module
+Data is stored in Firebase
+
+
